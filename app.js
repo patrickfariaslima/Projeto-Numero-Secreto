@@ -12,7 +12,7 @@ let tentativas = 1;
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto; //aqui eu defino que minha função irá receber dois valores, tag e texto. toda vez que eu for executar minha função, eu irei definir o que será a tag e o que será texto, como a seguir.
-    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.0}) // essa linha indica que queremos que a função responsive voice, atribuída na linha 7 do html faça a leitura de tudo que for texto em nosso jogo. O rate, é a velocidade da leitura. 
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.005}) // essa linha indica que queremos que a função responsive voice, atribuída na linha 7 do html faça a leitura de tudo que for texto em nosso jogo. O rate, é a velocidade da leitura. 
 }
 
 function exibirMensagemInicial() {
